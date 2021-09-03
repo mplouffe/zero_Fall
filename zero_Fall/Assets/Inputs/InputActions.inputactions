@@ -1,0 +1,39 @@
+{
+    "name": "InputActions",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "c73142d8-6bce-4542-bd84-444ec2030ae3",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "324f7f88-fdc2-4ae4-973c-8fb9c54fa986",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2fa0b1e9-8e10-42d4-aedd-f33ba5b85b47",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Overworld",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Overworld",
+            "bindingGroup": "Overworld",
+            "devices": []
+        }
+    ]
+}
