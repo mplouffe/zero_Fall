@@ -34,5 +34,10 @@ public class PlayerController : MonoBehaviour, IDefaultActions
     {
         Debug.Log("Jump Triggered");
     }
+
+    public void OnMove(InputAction.CallbackContext context)
+    {
+        Debug.Log("Move Triggered");
+    }
 }
 

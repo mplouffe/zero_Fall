@@ -12,7 +12,7 @@ public struct CharacterControllerData : IComponentData
     public float height;                // (2)
     public float skin;                  // distance out from controller to check for objects we are touching, set to something small (0.01)
     public float maxAngle;              // max angle not to slide down (45)
-    public float onGround;
+    public bool onGround;
     public float3 footOffset;           // position collider by base instead of center
     public float3 moveDelta;            // distance to try and move
     public LayerMask layersToIgnore;    // an easy way to set layers

@@ -25,6 +25,14 @@ public class @InputActions : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Move"",
+                    ""type"": ""Value"",
+                    ""id"": ""e1fb66eb-ce65-4fc8-9130-de86cb27ba5f"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -36,6 +44,17 @@ public class @InputActions : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": ""Overworld"",
                     ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""93dc03b5-2f17-4488-8d70-f45bd0ee647b"",
+                    ""path"": ""<Mouse>/scroll"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -53,6 +72,7 @@ public class @InputActions : IInputActionCollection, IDisposable
         // Default
         m_Default = asset.FindActionMap("Default", throwIfNotFound: true);
         m_Default_Jump = m_Default.FindAction("Jump", throwIfNotFound: true);
+        m_Default_Move = m_Default.FindAction("Move", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -103,11 +123,13 @@ public class @InputActions : IInputActionCollection, IDisposable
     private readonly InputActionMap m_Default;
     private IDefaultActions m_DefaultActionsCallbackInterface;
     private readonly InputAction m_Default_Jump;
+    private readonly InputAction m_Default_Move;
     public struct DefaultActions
     {
         private @InputActions m_Wrapper;
         public DefaultActions(@InputActions wrapper) { m_Wrapper = wrapper; }
         public InputAction @Jump => m_Wrapper.m_Default_Jump;
+        public InputAction @Move => m_Wrapper.m_Default_Move;
         public InputActionMap Get() { return m_Wrapper.m_Default; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -120,6 +142,9 @@ public class @InputActions : IInputActionCollection, IDisposable
                 @Jump.started -= m_Wrapper.m_DefaultActionsCallbackInterface.OnJump;
                 @Jump.performed -= m_Wrapper.m_DefaultActionsCallbackInterface.OnJump;
                 @Jump.canceled -= m_Wrapper.m_DefaultActionsCallbackInterface.OnJump;
+                @Move.started -= m_Wrapper.m_DefaultActionsCallbackInterface.OnMove;
+                @Move.performed -= m_Wrapper.m_DefaultActionsCallbackInterface.OnMove;
+                @Move.canceled -= m_Wrapper.m_DefaultActionsCallbackInterface.OnMove;
             }
             m_Wrapper.m_DefaultActionsCallbackInterface = instance;
             if (instance != null)
@@ -127,6 +152,9 @@ public class @InputActions : IInputActionCollection, IDisposable
                 @Jump.started += instance.OnJump;
                 @Jump.performed += instance.OnJump;
                 @Jump.canceled += instance.OnJump;
+                @Move.started += instance.OnMove;
+                @Move.performed += instance.OnMove;
+                @Move.canceled += instance.OnMove;
             }
         }
     }
@@ -143,5 +171,6 @@ public class @InputActions : IInputActionCollection, IDisposable
     public interface IDefaultActions
     {
         void OnJump(InputAction.CallbackContext context);
+        void OnMove(InputAction.CallbackContext context);
     }
 }

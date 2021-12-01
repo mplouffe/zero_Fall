@@ -16,11 +16,14 @@ public class CharacterControllerSystem : SystemBase
         CollisionWorld collisionWorld = physicsWorldSystem.PhysicsWorld.CollisionWorld;
         EntityManager entityManager = EntityManager;
         JobHandle controllerJob = Entities.WithReadOnly(collisionWorld).ForEach(
-            (ref CharacterControllerData charracterController, ref Translation translation, ref DynamicBuffer<BounceNormals> bounceNormalsBuffer) =>
+            (ref CharacterControllerData characterController, ref Translation translation, ref DynamicBuffer<BounceNormals> bounceNormalsBuffer) =>
             {
                 bounceNormalsBuffer.Clear();
                 DynamicBuffer<float3> bounceNormals = bounceNormalsBuffer.Reinterpret<float3>();
 
+                Move(ref characterController, ref translation, ref bounceNormals, collisionWorld);
+                characterController.onGround = GetGrounded(bounceNormals, characterController);
+                characterController.moveDelta = float3.zero;
             }).ScheduleParallel(JobHandle.CombineDependencies(Dependency, physicsWorldSystem.GetOutputDependency()));
         controllerJob.Complete();
     }
