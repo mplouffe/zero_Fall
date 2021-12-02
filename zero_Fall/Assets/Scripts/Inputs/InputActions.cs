@@ -1,4 +1,4 @@
-// GENERATED AUTOMATICALLY FROM 'Assets/Inputs/InputActions.inputactions'
+// GENERATED AUTOMATICALLY FROM 'Assets/Scripts/Inputs/InputActions.inputactions'
 
 using System;
 using System.Collections;
@@ -28,9 +28,9 @@ public class @InputActions : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": ""Move"",
-                    ""type"": ""Value"",
+                    ""type"": ""PassThrough"",
                     ""id"": ""e1fb66eb-ce65-4fc8-9130-de86cb27ba5f"",
-                    ""expectedControlType"": ""Vector2"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """"
                 }
@@ -39,7 +39,7 @@ public class @InputActions : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""2fa0b1e9-8e10-42d4-aedd-f33ba5b85b47"",
-                    ""path"": ""<Keyboard>/space"",
+                    ""path"": ""<Gamepad>/leftStickPress"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Overworld"",
@@ -49,8 +49,8 @@ public class @InputActions : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""93dc03b5-2f17-4488-8d70-f45bd0ee647b"",
-                    ""path"": ""<Mouse>/scroll"",
+                    ""id"": ""97f063e0-bacf-4a5c-bfd6-07e807cb6e68"",
+                    ""path"": ""<Gamepad>/leftStick"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

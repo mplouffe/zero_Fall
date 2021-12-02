@@ -30,6 +30,7 @@ public class GameController : MonoBehaviour
                     };
                     map["Jump"].performed += (InputAction.CallbackContext context) =>
                     {
+                        Debug.Log("Jumped");
                         pilotInput.Jump = (context.ReadValue<float>() < 0.5f);
                     };
                     break;

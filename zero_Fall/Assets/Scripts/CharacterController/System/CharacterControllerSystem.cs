@@ -7,11 +7,11 @@ using Unity.Mathematics;
 using Unity.Physics;
 using Unity.Transforms;
 
-
 public class CharacterControllerSystem : SystemBase
 {
     protected override void OnUpdate()
     {
+        UnityEngine.Debug.Log("Character Controller System Running");
         var physicsWorldSystem = World.GetExistingSystem<Unity.Physics.Systems.BuildPhysicsWorld>();
         CollisionWorld collisionWorld = physicsWorldSystem.PhysicsWorld.CollisionWorld;
         EntityManager entityManager = EntityManager;
