@@ -9,14 +9,16 @@ public class PlayerInputSystem : SystemBase
 {
     protected override void OnUpdate()
     {
-        float2 movement = GameController.pilotInput.Movement;
+        float2 movementInput = GameController.pilotInput.Movement;
         bool jumping = GameController.pilotInput.Jump;
 
-        JobHandle inputJob = Entities.ForEach((ref PlayerInputData input) =>
+        Entities.ForEach((ref PlayerInputData input, ref MovementData movement, ref RotateData rotateData) =>
         {
-            input.movement = movement;
+            input.movement = movementInput;
             input.jumping = jumping;
-        }).Schedule(Dependency);
-        inputJob.Complete();
+
+            movement.target = new float3(movementInput.x, 0, movementInput.y);
+            rotateData.rotateTargetPosition = movement.target;
+        }).Run();
     }
 }
