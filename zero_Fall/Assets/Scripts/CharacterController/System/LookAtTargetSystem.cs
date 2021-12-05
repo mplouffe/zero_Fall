@@ -18,7 +18,6 @@ public class LookAtTargetSystem : SystemBase
                 Translation targetPosition = translationsArray[target.lookAtEntity];
 
                 rotateData.rotateTargetPosition = targetPosition.Value - translation.Value;
-                rotateData.rotateTargetPosition = new float3(rotateData.rotateTargetPosition.x, 0f, rotateData.rotateTargetPosition.z);
 
         }).Schedule();
     }

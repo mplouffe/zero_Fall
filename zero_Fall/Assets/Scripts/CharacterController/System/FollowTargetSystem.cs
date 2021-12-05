@@ -15,7 +15,7 @@ public class FollowTargetSystem : SystemBase
 
             Translation targetPosition = translationsArray[target.followEntity];
 
-            movement.target = targetPosition.Value - translation.Value;
+            movement.target = targetPosition.Value + target.targetOffset - translation.Value;
 
         }).Schedule();
     }

@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using Unity.Transforms;
 using UnityEngine;
 
-[UpdateAfter(typeof(PlayerTag))]
+
 public class ConvertCamera : MonoBehaviour, IConvertGameObjectToEntity
 {
     public EntityManager entityManager;

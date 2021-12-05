@@ -8,6 +8,8 @@ using UnityEngine;
 
 public class ConvertPlayer : MonoBehaviour, IConvertGameObjectToEntity
 {
+    public EntityManager entityManager;
+
     public GameObject cameraObject;
 
     public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)
@@ -23,5 +25,10 @@ public class ConvertPlayer : MonoBehaviour, IConvertGameObjectToEntity
 
         convertCamera.targetEntity = entity;
         convertCamera.lookAtEntity = entity;
+    }
+
+    void Awake()
+    {
+        entityManager = World.DefaultGameObjectInjectionWorld.EntityManager;
     }
 }
