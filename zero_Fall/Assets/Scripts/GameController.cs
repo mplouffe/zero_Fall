@@ -28,16 +28,20 @@ public class GameController : MonoBehaviour
                     {
                         pilotInput.Movement = context.ReadValue<Vector2>();
                     };
-                    map["Jump"].performed += (InputAction.CallbackContext context) =>
-                    {
-                        Debug.Log("Jumped");
-                        pilotInput.Jump = (context.ReadValue<float>() < 0.5f);
-                    };
                     break;
             }
 
         }
     }
+
+    private void FixedUpdate()
+    {
+        var gamepad = Gamepad.current;
+        if (gamepad == null) { return; }
+
+        pilotInput.Jump = gamepad.bButton.isPressed;
+    }
+
 
     public struct PilotInput
     {

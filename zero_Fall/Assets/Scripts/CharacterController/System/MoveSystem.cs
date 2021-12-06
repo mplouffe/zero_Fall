@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Entities;
 using Unity.Mathematics;
+using Unity.Physics;
 using Unity.Transforms;
 using UnityEngine;
 
@@ -11,9 +12,9 @@ public class MoveSystem : SystemBase
     {
         float deltaTime = Time.DeltaTime;
 
-        Entities.ForEach((ref Translation translation, in MovementData movement) =>
+        Entities.ForEach((ref PhysicsVelocity velocity, in MovementData movement) =>
         {
-            translation.Value +=  movement.target * movement.movementSpeed * deltaTime;
+            velocity.Linear -=  movement.target * movement.movementSpeed * deltaTime;
         }).Run();
     }
 }
