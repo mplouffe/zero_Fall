@@ -5772,6 +5772,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6391105641254750662, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: movementSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_ShapeType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7306849573206245961, guid: d04130320d87abf408abcddf1858b9d5,
         type: 3}
       propertyPath: m_Name
@@ -5905,8 +5915,9 @@ MonoBehaviour:
   jumpForce: 2
   jumpDirection:
     x: 0
-    y: 10
+    y: 1
     z: 0
+  onGround: 0
 --- !u!114 &7306849574349809214
 MonoBehaviour:
   m_ObjectHideFlags: 0

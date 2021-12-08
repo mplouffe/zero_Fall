@@ -8,4 +8,5 @@ public struct JumpData : IComponentData
 {
     public float jumpForce;
     public float3 jumpDirection;
+    public bool onGround;
 }

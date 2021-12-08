@@ -14,7 +14,7 @@ public class MoveSystem : SystemBase
 
         Entities.ForEach((ref PhysicsVelocity velocity, in MovementData movement) =>
         {
-            velocity.Linear -=  movement.target * movement.movementSpeed * deltaTime;
+            velocity.Linear +=  movement.target * movement.movementSpeed * deltaTime;
         }).Run();
     }
 }

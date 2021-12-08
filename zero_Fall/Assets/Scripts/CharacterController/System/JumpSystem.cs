@@ -12,9 +12,8 @@ public class JumpSystem : SystemBase
     protected override void OnUpdate()
     {      
         Entities.ForEach((ref PhysicsVelocity velocity, in JumpData jumpData, in PlayerInputData playerInput) => {
-            if (playerInput.jumping)
+            if (playerInput.jumping && jumpData.onGround)
             {
-                Debug.Log("Jumping force applied");
                 velocity.Linear += jumpData.jumpDirection * jumpData.jumpForce;
             }
         }).Schedule();
