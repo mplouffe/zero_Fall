@@ -4,9 +4,10 @@ using Unity.Entities;
 using Unity.Mathematics;
 
 [GenerateAuthoringComponent]
-public struct JumpData : IComponentData
+public struct BoostData : IComponentData
 {
-    public float jumpForce;
-    public float3 jumpDirection;
+    public float boostForce;
+    public float3 boostDirection;
+    public float boostCooldown;
     public bool onGround;
 }

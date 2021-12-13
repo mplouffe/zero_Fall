@@ -39,13 +39,13 @@ public class GameController : MonoBehaviour
         var gamepad = Gamepad.current;
         if (gamepad == null) { return; }
 
-        pilotInput.Jump = gamepad.bButton.isPressed;
+        pilotInput.Boost = gamepad.bButton.isPressed;
     }
 
 
     public struct PilotInput
     {
         public float2 Movement;
-        public bool Jump;
+        public bool Boost;
     }
 }
