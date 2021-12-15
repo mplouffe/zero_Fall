@@ -14,11 +14,13 @@ public class BoostSystem : SystemBase
         Entities
             .ForEach((
                 ref PhysicsVelocity velocity,
+                in Rotation rotation,
                 in BoostData boostData,
                 in PlayerInputData playerInput) => {
                     if (playerInput.boosting)
                     {
-                        velocity.Linear += boostData.boostDirection * boostData.boostForce;
+                        var direction = math.mul(rotation.Value, new float3(0f, 0f, 1f));
+                        velocity.Linear += direction * boostData.boostForce;
                     }
         }).Schedule();
     }
