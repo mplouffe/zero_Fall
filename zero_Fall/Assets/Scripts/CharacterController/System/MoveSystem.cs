@@ -14,7 +14,14 @@ public class MoveSystem : SystemBase
 
         Entities.ForEach((ref PhysicsVelocity velocity, in MovementData movement) =>
         {
-            velocity.Linear +=  movement.target * movement.movementSpeed * deltaTime;
+            var currentSpeed = Vector3.Magnitude(velocity.Linear);
+            var diffToMax = movement.maxSpeed - currentSpeed;
+
+            if (diffToMax > 0)
+            {
+                var accelerationToAdd = Mathf.Min(movement.acceleration, diffToMax);
+                velocity.Linear += movement.target * accelerationToAdd * deltaTime;
+            }
         }).Run();
     }
 }

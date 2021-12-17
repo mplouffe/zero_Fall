@@ -19,7 +19,7 @@ public class ConvertCamera : MonoBehaviour, IConvertGameObjectToEntity
     {
         dstManager.AddComponent<CopyTransformToGameObject>(entity);
 
-        dstManager.AddComponentData(entity, new MovementData { movementSpeed = movementSpeed });
+        dstManager.AddComponentData(entity, new FollowMovementData { movementSpeed = movementSpeed });
         dstManager.AddComponentData(entity, new TargetData { followEntity = targetEntity, lookAtEntity = lookAtEntity, targetOffset = offset });
         dstManager.AddComponentData(entity, new RotateData { rotateSpeed = rotateSpeed });
     }

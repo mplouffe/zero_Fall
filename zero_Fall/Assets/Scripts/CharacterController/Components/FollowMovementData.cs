@@ -4,10 +4,9 @@ using Unity.Entities;
 using Unity.Mathematics;
 using UnityEngine;
 
-[GenerateAuthoringComponent]
-public struct MovementData : IComponentData
+public struct FollowMovementData : IComponentData
 {
-    public float acceleration;
-    public float maxSpeed;
+    public float movementSpeed;
     public float3 target;
+    public float distanceToTarget;
 }
