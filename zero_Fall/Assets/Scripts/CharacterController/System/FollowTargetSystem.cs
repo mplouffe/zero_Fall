@@ -9,7 +9,7 @@ public class FollowTargetSystem : SystemBase
 {
     protected override void OnUpdate()
     {
-        Entities.ForEach((ref MovementData movement, in TargetData target, in Translation translation) => {
+        Entities.ForEach((ref FollowMovementData movement, in TargetData target, in Translation translation) => {
             ComponentDataFromEntity<Translation> translationsArray = GetComponentDataFromEntity<Translation>(true);
             if (!translationsArray.HasComponent(target.followEntity)) { return; }
 
