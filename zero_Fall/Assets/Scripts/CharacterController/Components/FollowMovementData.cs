@@ -6,7 +6,9 @@ using UnityEngine;
 
 public struct FollowMovementData : IComponentData
 {
-    public float movementSpeed;
+    public float acceleration;
+    public float maxSpeed;
+    public float falloffBoundary;
     public float3 target;
     public float distanceToTarget;
 }

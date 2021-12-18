@@ -17,17 +17,25 @@ public class FollowTargetMovementSystem : SystemBase
             .WithoutBurst()
             .ForEach((ref PhysicsVelocity velocity, in FollowMovementData movement) => {
                 var distance = Vector3.Magnitude(movement.target);
-                Debug.Log("distance: " + distance);
-                var currVelocity = Vector3.Magnitude(velocity.Linear);
-                Debug.Log("velocity: " + currVelocity);
 
-                if (distance < 5)
+                var currentSpeed = Vector3.Magnitude(velocity.Linear);
+                var diffToMax = currentSpeed - movement.maxSpeed;
+
+                if (currentSpeed < movement.maxSpeed)
                 {
-                    velocity.Linear -= ((5 - distance)/ distance) * velocity.Linear * deltaTime;
+                    if (distance < movement.falloffBoundary)
+                    {
+                        velocity.Linear -= ((movement.falloffBoundary - distance) / movement.falloffBoundary) * velocity.Linear * deltaTime;
+                    }
+                    else
+                    {
+                        var accelerationToAdd = Mathf.Min(movement.acceleration, movement.maxSpeed - currentSpeed);
+                        velocity.Linear += math.normalize(movement.target) * accelerationToAdd * deltaTime;
+                    }
                 }
                 else
                 {
-                    velocity.Linear += movement.target * movement.movementSpeed * deltaTime;
+                    velocity.Linear -= velocity.Linear;
                 }
 
         }).Schedule();
