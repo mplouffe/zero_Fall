@@ -63,3 +63,6 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+# Fix for Physics package error
+Packages/com.unity.collections@0.15.0-preview.21/

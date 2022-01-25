@@ -417,8 +417,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8362b1703b48984a87af0cff3c82ebd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 5
   acceleration: 2
+  maxSpeed: 0
   target:
     x: 0
     y: 0
@@ -438,7 +438,7 @@ MonoBehaviour:
   movement:
     x: 0
     y: 0
-  jumping: 0
+  boosting: 0
 --- !u!1 &7306849574379127083
 GameObject:
   m_ObjectHideFlags: 0
