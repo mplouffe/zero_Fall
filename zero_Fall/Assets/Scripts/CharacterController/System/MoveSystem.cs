@@ -20,7 +20,7 @@ public class MoveSystem : SystemBase
             if (diffToMax > 0)
             {
                 var accelerationToAdd = Mathf.Min(movement.acceleration, diffToMax);
-                velocity.Linear += movement.target * accelerationToAdd * deltaTime;
+                velocity.Linear += movement.target * accelerationToAdd;
             }
         }).Run();
     }

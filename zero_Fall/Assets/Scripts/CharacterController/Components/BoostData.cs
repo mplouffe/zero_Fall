@@ -10,4 +10,5 @@ public struct BoostData : IComponentData
     public float3 boostDirection;
     public float boostCooldown;
     public bool onGround;
+    public float maxBoostSpeed;
 }
