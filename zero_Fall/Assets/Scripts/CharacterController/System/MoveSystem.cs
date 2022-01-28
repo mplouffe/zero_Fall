@@ -13,15 +13,27 @@ public class MoveSystem : SystemBase
         float deltaTime = Time.DeltaTime;
 
         Entities.ForEach((ref PhysicsVelocity velocity, in MovementData movement) =>
-        {
-            var currentSpeed = Vector3.Magnitude(velocity.Linear);
-            var diffToMax = movement.maxSpeed - currentSpeed;
+        {   
+            var normalizedLinearVelocity = math.normalize(velocity.Linear);
+            var velocityTargetDot = math.dot(normalizedLinearVelocity, movement.target);
 
-            if (diffToMax > 0)
+            var accelerationToAdd = new float3(0);
+            
+            if (velocityTargetDot >= -0.5)
             {
-                var accelerationToAdd = Mathf.Min(movement.acceleration, diffToMax);
-                velocity.Linear += movement.target * accelerationToAdd;
+                var currentSpeed = Vector3.Magnitude(velocity.Linear);
+                var diffToMax = movement.maxSpeed - currentSpeed;
+                if (diffToMax > 0)
+                {
+                    accelerationToAdd = Mathf.Min(movement.acceleration, diffToMax);
+                }
             }
+            else
+            {
+                accelerationToAdd = movement.maxSpeed;
+            }
+
+            velocity.Linear += movement.target * accelerationToAdd;
         }).Run();
     }
 }
