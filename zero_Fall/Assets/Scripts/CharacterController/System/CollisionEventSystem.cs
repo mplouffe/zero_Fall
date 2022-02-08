@@ -36,7 +36,7 @@ public class CollisionEventSystem : JobComponentSystem
     {
         public void Execute(CollisionEvent evt)
         {
-            // Debug.Log($"Collision between entities { evt.EntityA.Index } and { evt.EntityB.Index }");
+            Debug.Log($"Collision between entities { evt.EntityA.Index } and { evt.EntityB.Index }");
         }
     }
 }

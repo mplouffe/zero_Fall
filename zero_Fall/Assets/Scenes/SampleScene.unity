@@ -234,38 +234,38 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 1
-        Category02: 1
+        Category00: 0
+        Category01: 0
+        Category02: 0
         Category03: 1
-        Category04: 1
-        Category05: 1
-        Category06: 1
-        Category07: 1
-        Category08: 1
-        Category09: 1
-        Category10: 1
-        Category11: 1
-        Category12: 1
-        Category13: 1
-        Category14: 1
-        Category15: 1
-        Category16: 1
-        Category17: 1
-        Category18: 1
-        Category19: 1
-        Category20: 1
-        Category21: 1
-        Category22: 1
-        Category23: 1
-        Category24: 1
-        Category25: 1
-        Category26: 1
-        Category27: 1
-        Category28: 1
-        Category29: 1
-        Category30: 1
-        Category31: 1
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
@@ -473,38 +473,38 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 1
-        Category02: 1
+        Category00: 0
+        Category01: 0
+        Category02: 0
         Category03: 1
-        Category04: 1
-        Category05: 1
-        Category06: 1
-        Category07: 1
-        Category08: 1
-        Category09: 1
-        Category10: 1
-        Category11: 1
-        Category12: 1
-        Category13: 1
-        Category14: 1
-        Category15: 1
-        Category16: 1
-        Category17: 1
-        Category18: 1
-        Category19: 1
-        Category20: 1
-        Category21: 1
-        Category22: 1
-        Category23: 1
-        Category24: 1
-        Category25: 1
-        Category26: 1
-        Category27: 1
-        Category28: 1
-        Category29: 1
-        Category30: 1
-        Category31: 1
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
@@ -634,6 +634,7 @@ Transform:
   - {fileID: 1816993755}
   - {fileID: 49127128}
   - {fileID: 1528197966}
+  - {fileID: 642241341}
   m_Father: {fileID: 364159324}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -781,38 +782,38 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 1
-        Category02: 1
+        Category00: 0
+        Category01: 0
+        Category02: 0
         Category03: 1
-        Category04: 1
-        Category05: 1
-        Category06: 1
-        Category07: 1
-        Category08: 1
-        Category09: 1
-        Category10: 1
-        Category11: 1
-        Category12: 1
-        Category13: 1
-        Category14: 1
-        Category15: 1
-        Category16: 1
-        Category17: 1
-        Category18: 1
-        Category19: 1
-        Category20: 1
-        Category21: 1
-        Category22: 1
-        Category23: 1
-        Category24: 1
-        Category25: 1
-        Category26: 1
-        Category27: 1
-        Category28: 1
-        Category29: 1
-        Category30: 1
-        Category31: 1
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
@@ -1042,38 +1043,38 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 1
-        Category02: 1
+        Category00: 0
+        Category01: 0
+        Category02: 0
         Category03: 1
-        Category04: 1
-        Category05: 1
-        Category06: 1
-        Category07: 1
-        Category08: 1
-        Category09: 1
-        Category10: 1
-        Category11: 1
-        Category12: 1
-        Category13: 1
-        Category14: 1
-        Category15: 1
-        Category16: 1
-        Category17: 1
-        Category18: 1
-        Category19: 1
-        Category20: 1
-        Category21: 1
-        Category22: 1
-        Category23: 1
-        Category24: 1
-        Category25: 1
-        Category26: 1
-        Category27: 1
-        Category28: 1
-        Category29: 1
-        Category30: 1
-        Category31: 1
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
@@ -1269,6 +1270,194 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &642241340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 642241341}
+  - component: {fileID: 642241342}
+  - component: {fileID: 642241343}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &642241341
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642241340}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -53.77, y: 2.56, z: 0}
+  m_LocalScale: {x: 3.89, y: 5, z: 23}
+  m_Children: []
+  m_Father: {fileID: 323693077}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &642241342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642241340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b275e5f92732148048d7b77e264ac30e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShapeType: 0
+  m_PrimitiveCenter:
+    x: 0
+    y: 0
+    z: 0
+  m_PrimitiveSize:
+    x: 1
+    y: 1
+    z: 1
+  m_PrimitiveOrientation:
+    Value:
+      x: 0
+      y: 0
+      z: 0
+    RotationOrder: 4
+  m_Capsule:
+    Height: 1
+    Radius: 0.5
+    Axis: 2
+  m_Cylinder:
+    Height: 1
+    Radius: 0.5
+    Axis: 2
+  m_CylinderSideCount: 20
+  m_SphereRadius: 0.5
+  m_MinimumSkinnedVertexWeight: 0.1
+  m_ConvexHullGenerationParameters:
+    m_SimplificationTolerance: 0.015
+    m_BevelRadius: 0.05
+    m_MinimumAngle: 2.5000002
+  m_CustomMesh: {fileID: 0}
+  m_ForceUnique: 0
+  m_Material:
+    m_SupportsTemplate: 1
+    m_Template: {fileID: 0}
+    m_CollisionResponse:
+      m_Override: 0
+      m_Value: 3
+    m_Friction:
+      m_Override: 0
+      m_Value:
+        Value: 0.5
+        CombineMode: 0
+    m_Restitution:
+      m_Override: 0
+      m_Value:
+        Value: 0
+        CombineMode: 2
+    m_BelongsToCategories:
+      m_Override: 0
+      m_Value:
+        Category00: 0
+        Category01: 1
+        Category02: 0
+        Category03: 0
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
+    m_CollidesWithCategories:
+      m_Override: 0
+      m_Value:
+        Category00: 1
+        Category01: 0
+        Category02: 0
+        Category03: 0
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
+    m_CustomMaterialTags:
+      m_Override: 0
+      m_Value:
+        Tag00: 0
+        Tag01: 0
+        Tag02: 0
+        Tag03: 0
+        Tag04: 0
+        Tag05: 0
+        Tag06: 0
+        Tag07: 0
+    m_SerializedVersion: 1
+  m_SerializedVersion: 1
+--- !u!114 &642241343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642241340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConversionMode: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1472,38 +1661,38 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 1
-        Category02: 1
+        Category00: 0
+        Category01: 0
+        Category02: 0
         Category03: 1
-        Category04: 1
-        Category05: 1
-        Category06: 1
-        Category07: 1
-        Category08: 1
-        Category09: 1
-        Category10: 1
-        Category11: 1
-        Category12: 1
-        Category13: 1
-        Category14: 1
-        Category15: 1
-        Category16: 1
-        Category17: 1
-        Category18: 1
-        Category19: 1
-        Category20: 1
-        Category21: 1
-        Category22: 1
-        Category23: 1
-        Category24: 1
-        Category25: 1
-        Category26: 1
-        Category27: 1
-        Category28: 1
-        Category29: 1
-        Category30: 1
-        Category31: 1
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
@@ -1615,7 +1804,7 @@ GameObject:
   - component: {fileID: 727077705}
   - component: {fileID: 727077708}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Field
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1698,38 +1887,38 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 1
-        Category02: 1
+        Category00: 0
+        Category01: 0
+        Category02: 0
         Category03: 1
-        Category04: 1
-        Category05: 1
-        Category06: 1
-        Category07: 1
-        Category08: 1
-        Category09: 1
-        Category10: 1
-        Category11: 1
-        Category12: 1
-        Category13: 1
-        Category14: 1
-        Category15: 1
-        Category16: 1
-        Category17: 1
-        Category18: 1
-        Category19: 1
-        Category20: 1
-        Category21: 1
-        Category22: 1
-        Category23: 1
-        Category24: 1
-        Category25: 1
-        Category26: 1
-        Category27: 1
-        Category28: 1
-        Category29: 1
-        Category30: 1
-        Category31: 1
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
@@ -1938,38 +2127,38 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 1
-        Category02: 1
+        Category00: 0
+        Category01: 0
+        Category02: 0
         Category03: 1
-        Category04: 1
-        Category05: 1
-        Category06: 1
-        Category07: 1
-        Category08: 1
-        Category09: 1
-        Category10: 1
-        Category11: 1
-        Category12: 1
-        Category13: 1
-        Category14: 1
-        Category15: 1
-        Category16: 1
-        Category17: 1
-        Category18: 1
-        Category19: 1
-        Category20: 1
-        Category21: 1
-        Category22: 1
-        Category23: 1
-        Category24: 1
-        Category25: 1
-        Category26: 1
-        Category27: 1
-        Category28: 1
-        Category29: 1
-        Category30: 1
-        Category31: 1
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
@@ -2228,38 +2417,38 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 1
-        Category02: 1
+        Category00: 0
+        Category01: 0
+        Category02: 0
         Category03: 1
-        Category04: 1
-        Category05: 1
-        Category06: 1
-        Category07: 1
-        Category08: 1
-        Category09: 1
-        Category10: 1
-        Category11: 1
-        Category12: 1
-        Category13: 1
-        Category14: 1
-        Category15: 1
-        Category16: 1
-        Category17: 1
-        Category18: 1
-        Category19: 1
-        Category20: 1
-        Category21: 1
-        Category22: 1
-        Category23: 1
-        Category24: 1
-        Category25: 1
-        Category26: 1
-        Category27: 1
-        Category28: 1
-        Category29: 1
-        Category30: 1
-        Category31: 1
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
@@ -2518,38 +2707,38 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 1
-        Category02: 1
+        Category00: 0
+        Category01: 0
+        Category02: 0
         Category03: 1
-        Category04: 1
-        Category05: 1
-        Category06: 1
-        Category07: 1
-        Category08: 1
-        Category09: 1
-        Category10: 1
-        Category11: 1
-        Category12: 1
-        Category13: 1
-        Category14: 1
-        Category15: 1
-        Category16: 1
-        Category17: 1
-        Category18: 1
-        Category19: 1
-        Category20: 1
-        Category21: 1
-        Category22: 1
-        Category23: 1
-        Category24: 1
-        Category25: 1
-        Category26: 1
-        Category27: 1
-        Category28: 1
-        Category29: 1
-        Category30: 1
-        Category31: 1
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
@@ -3022,38 +3211,38 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 1
-        Category02: 1
+        Category00: 0
+        Category01: 0
+        Category02: 0
         Category03: 1
-        Category04: 1
-        Category05: 1
-        Category06: 1
-        Category07: 1
-        Category08: 1
-        Category09: 1
-        Category10: 1
-        Category11: 1
-        Category12: 1
-        Category13: 1
-        Category14: 1
-        Category15: 1
-        Category16: 1
-        Category17: 1
-        Category18: 1
-        Category19: 1
-        Category20: 1
-        Category21: 1
-        Category22: 1
-        Category23: 1
-        Category24: 1
-        Category25: 1
-        Category26: 1
-        Category27: 1
-        Category28: 1
-        Category29: 1
-        Category30: 1
-        Category31: 1
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
@@ -3305,38 +3494,38 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 1
-        Category02: 1
+        Category00: 0
+        Category01: 0
+        Category02: 0
         Category03: 1
-        Category04: 1
-        Category05: 1
-        Category06: 1
-        Category07: 1
-        Category08: 1
-        Category09: 1
-        Category10: 1
-        Category11: 1
-        Category12: 1
-        Category13: 1
-        Category14: 1
-        Category15: 1
-        Category16: 1
-        Category17: 1
-        Category18: 1
-        Category19: 1
-        Category20: 1
-        Category21: 1
-        Category22: 1
-        Category23: 1
-        Category24: 1
-        Category25: 1
-        Category26: 1
-        Category27: 1
-        Category28: 1
-        Category29: 1
-        Category30: 1
-        Category31: 1
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
@@ -3544,38 +3733,38 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 1
-        Category02: 1
+        Category00: 0
+        Category01: 0
+        Category02: 0
         Category03: 1
-        Category04: 1
-        Category05: 1
-        Category06: 1
-        Category07: 1
-        Category08: 1
-        Category09: 1
-        Category10: 1
-        Category11: 1
-        Category12: 1
-        Category13: 1
-        Category14: 1
-        Category15: 1
-        Category16: 1
-        Category17: 1
-        Category18: 1
-        Category19: 1
-        Category20: 1
-        Category21: 1
-        Category22: 1
-        Category23: 1
-        Category24: 1
-        Category25: 1
-        Category26: 1
-        Category27: 1
-        Category28: 1
-        Category29: 1
-        Category30: 1
-        Category31: 1
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
@@ -3771,38 +3960,38 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 1
-        Category02: 1
+        Category00: 0
+        Category01: 0
+        Category02: 0
         Category03: 1
-        Category04: 1
-        Category05: 1
-        Category06: 1
-        Category07: 1
-        Category08: 1
-        Category09: 1
-        Category10: 1
-        Category11: 1
-        Category12: 1
-        Category13: 1
-        Category14: 1
-        Category15: 1
-        Category16: 1
-        Category17: 1
-        Category18: 1
-        Category19: 1
-        Category20: 1
-        Category21: 1
-        Category22: 1
-        Category23: 1
-        Category24: 1
-        Category25: 1
-        Category26: 1
-        Category27: 1
-        Category28: 1
-        Category29: 1
-        Category30: 1
-        Category31: 1
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
@@ -4073,38 +4262,38 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 1
-        Category02: 1
+        Category00: 0
+        Category01: 0
+        Category02: 0
         Category03: 1
-        Category04: 1
-        Category05: 1
-        Category06: 1
-        Category07: 1
-        Category08: 1
-        Category09: 1
-        Category10: 1
-        Category11: 1
-        Category12: 1
-        Category13: 1
-        Category14: 1
-        Category15: 1
-        Category16: 1
-        Category17: 1
-        Category18: 1
-        Category19: 1
-        Category20: 1
-        Category21: 1
-        Category22: 1
-        Category23: 1
-        Category24: 1
-        Category25: 1
-        Category26: 1
-        Category27: 1
-        Category28: 1
-        Category29: 1
-        Category30: 1
-        Category31: 1
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
@@ -4300,38 +4489,38 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 1
-        Category02: 1
+        Category00: 0
+        Category01: 0
+        Category02: 0
         Category03: 1
-        Category04: 1
-        Category05: 1
-        Category06: 1
-        Category07: 1
-        Category08: 1
-        Category09: 1
-        Category10: 1
-        Category11: 1
-        Category12: 1
-        Category13: 1
-        Category14: 1
-        Category15: 1
-        Category16: 1
-        Category17: 1
-        Category18: 1
-        Category19: 1
-        Category20: 1
-        Category21: 1
-        Category22: 1
-        Category23: 1
-        Category24: 1
-        Category25: 1
-        Category26: 1
-        Category27: 1
-        Category28: 1
-        Category29: 1
-        Category30: 1
-        Category31: 1
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
@@ -4602,38 +4791,38 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 1
-        Category02: 1
+        Category00: 0
+        Category01: 0
+        Category02: 0
         Category03: 1
-        Category04: 1
-        Category05: 1
-        Category06: 1
-        Category07: 1
-        Category08: 1
-        Category09: 1
-        Category10: 1
-        Category11: 1
-        Category12: 1
-        Category13: 1
-        Category14: 1
-        Category15: 1
-        Category16: 1
-        Category17: 1
-        Category18: 1
-        Category19: 1
-        Category20: 1
-        Category21: 1
-        Category22: 1
-        Category23: 1
-        Category24: 1
-        Category25: 1
-        Category26: 1
-        Category27: 1
-        Category28: 1
-        Category29: 1
-        Category30: 1
-        Category31: 1
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
@@ -4829,38 +5018,38 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 1
-        Category02: 1
+        Category00: 0
+        Category01: 0
+        Category02: 0
         Category03: 1
-        Category04: 1
-        Category05: 1
-        Category06: 1
-        Category07: 1
-        Category08: 1
-        Category09: 1
-        Category10: 1
-        Category11: 1
-        Category12: 1
-        Category13: 1
-        Category14: 1
-        Category15: 1
-        Category16: 1
-        Category17: 1
-        Category18: 1
-        Category19: 1
-        Category20: 1
-        Category21: 1
-        Category22: 1
-        Category23: 1
-        Category24: 1
-        Category25: 1
-        Category26: 1
-        Category27: 1
-        Category28: 1
-        Category29: 1
-        Category30: 1
-        Category31: 1
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
@@ -5131,38 +5320,38 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 1
-        Category02: 1
+        Category00: 0
+        Category01: 0
+        Category02: 0
         Category03: 1
-        Category04: 1
-        Category05: 1
-        Category06: 1
-        Category07: 1
-        Category08: 1
-        Category09: 1
-        Category10: 1
-        Category11: 1
-        Category12: 1
-        Category13: 1
-        Category14: 1
-        Category15: 1
-        Category16: 1
-        Category17: 1
-        Category18: 1
-        Category19: 1
-        Category20: 1
-        Category21: 1
-        Category22: 1
-        Category23: 1
-        Category24: 1
-        Category25: 1
-        Category26: 1
-        Category27: 1
-        Category28: 1
-        Category29: 1
-        Category30: 1
-        Category31: 1
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
@@ -5358,73 +5547,73 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 1
-        Category02: 1
+        Category00: 0
+        Category01: 0
+        Category02: 0
         Category03: 1
-        Category04: 1
-        Category05: 1
-        Category06: 1
-        Category07: 1
-        Category08: 1
-        Category09: 1
-        Category10: 1
-        Category11: 1
-        Category12: 1
-        Category13: 1
-        Category14: 1
-        Category15: 1
-        Category16: 1
-        Category17: 1
-        Category18: 1
-        Category19: 1
-        Category20: 1
-        Category21: 1
-        Category22: 1
-        Category23: 1
-        Category24: 1
-        Category25: 1
-        Category26: 1
-        Category27: 1
-        Category28: 1
-        Category29: 1
-        Category30: 1
-        Category31: 1
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
         Category00: 1
-        Category01: 1
+        Category01: 0
         Category02: 1
-        Category03: 1
-        Category04: 1
-        Category05: 1
-        Category06: 1
-        Category07: 1
-        Category08: 1
-        Category09: 1
-        Category10: 1
-        Category11: 1
-        Category12: 1
-        Category13: 1
-        Category14: 1
-        Category15: 1
-        Category16: 1
-        Category17: 1
-        Category18: 1
-        Category19: 1
-        Category20: 1
-        Category21: 1
-        Category22: 1
-        Category23: 1
-        Category24: 1
-        Category25: 1
-        Category26: 1
-        Category27: 1
-        Category28: 1
-        Category29: 1
-        Category30: 1
-        Category31: 1
+        Category03: 0
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
     m_CustomMaterialTags:
       m_Override: 0
       m_Value:
@@ -5565,7 +5754,7 @@ GameObject:
   - component: {fileID: 2081189283}
   - component: {fileID: 2081189282}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5685,37 +5874,37 @@ MonoBehaviour:
       m_Override: 0
       m_Value:
         Category00: 1
-        Category01: 1
-        Category02: 1
-        Category03: 1
-        Category04: 1
-        Category05: 1
-        Category06: 1
-        Category07: 1
-        Category08: 1
-        Category09: 1
-        Category10: 1
-        Category11: 1
-        Category12: 1
-        Category13: 1
-        Category14: 1
-        Category15: 1
-        Category16: 1
-        Category17: 1
-        Category18: 1
-        Category19: 1
-        Category20: 1
-        Category21: 1
-        Category22: 1
-        Category23: 1
-        Category24: 1
-        Category25: 1
-        Category26: 1
-        Category27: 1
-        Category28: 1
-        Category29: 1
-        Category30: 1
-        Category31: 1
+        Category01: 0
+        Category02: 0
+        Category03: 0
+        Category04: 0
+        Category05: 0
+        Category06: 0
+        Category07: 0
+        Category08: 0
+        Category09: 0
+        Category10: 0
+        Category11: 0
+        Category12: 0
+        Category13: 0
+        Category14: 0
+        Category15: 0
+        Category16: 0
+        Category17: 0
+        Category18: 0
+        Category19: 0
+        Category20: 0
+        Category21: 0
+        Category22: 0
+        Category23: 0
+        Category24: 0
+        Category25: 0
+        Category26: 0
+        Category27: 0
+        Category28: 0
+        Category29: 0
+        Category30: 0
+        Category31: 0
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
@@ -5874,8 +6063,323 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
         type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category00
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category01
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
       propertyPath: m_Material.m_BelongsToCategories.m_Value.Category02
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category03
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category04
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category05
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category06
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category07
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category08
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category09
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category10
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category11
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category12
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category13
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category14
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category15
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category16
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category17
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category18
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category19
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category20
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category21
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category22
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category23
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category24
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category25
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category26
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category27
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category28
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category29
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category30
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_BelongsToCategories.m_Value.Category31
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category00
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category01
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category02
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category03
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category04
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category05
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category06
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category07
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category08
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category09
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category10
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category11
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category12
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category13
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category14
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category15
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category16
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category17
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category18
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category19
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category20
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category21
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category22
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category23
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category24
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category25
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category26
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category27
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category28
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category29
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category30
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694032715814744857, guid: d04130320d87abf408abcddf1858b9d5,
+        type: 3}
+      propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category31
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7306849573206245961, guid: d04130320d87abf408abcddf1858b9d5,
         type: 3}
