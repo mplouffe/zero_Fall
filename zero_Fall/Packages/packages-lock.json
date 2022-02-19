@@ -49,6 +49,13 @@
         "com.unity.burst": "1.4.1"
       }
     },
+    "com.unity.device-simulator": {
+      "version": "3.0.3-preview",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.dots.editor": {
       "version": "0.12.0-preview.6",
       "depth": 0,
