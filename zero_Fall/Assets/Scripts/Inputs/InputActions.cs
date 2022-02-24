@@ -28,7 +28,7 @@ public partial class @InputActions : IInputActionCollection2, IDisposable
             ""id"": ""c73142d8-6bce-4542-bd84-444ec2030ae3"",
             ""actions"": [
                 {
-                    ""name"": ""Jump"",
+                    ""name"": ""Boost"",
                     ""type"": ""Button"",
                     ""id"": ""324f7f88-fdc2-4ae4-973c-8fb9c54fa986"",
                     ""expectedControlType"": ""Button"",
@@ -54,7 +54,18 @@ public partial class @InputActions : IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Overworld"",
-                    ""action"": ""Jump"",
+                    ""action"": ""Boost"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e74a32a8-9edf-4f5d-abea-43afd5b4c2cb"",
+                    ""path"": ""<Sensor>"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Overworld"",
+                    ""action"": ""Boost"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -82,7 +93,7 @@ public partial class @InputActions : IInputActionCollection2, IDisposable
 }");
         // Default
         m_Default = asset.FindActionMap("Default", throwIfNotFound: true);
-        m_Default_Jump = m_Default.FindAction("Jump", throwIfNotFound: true);
+        m_Default_Boost = m_Default.FindAction("Boost", throwIfNotFound: true);
         m_Default_Move = m_Default.FindAction("Move", throwIfNotFound: true);
     }
 
@@ -143,13 +154,13 @@ public partial class @InputActions : IInputActionCollection2, IDisposable
     // Default
     private readonly InputActionMap m_Default;
     private IDefaultActions m_DefaultActionsCallbackInterface;
-    private readonly InputAction m_Default_Jump;
+    private readonly InputAction m_Default_Boost;
     private readonly InputAction m_Default_Move;
     public struct DefaultActions
     {
         private @InputActions m_Wrapper;
         public DefaultActions(@InputActions wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Jump => m_Wrapper.m_Default_Jump;
+        public InputAction @Boost => m_Wrapper.m_Default_Boost;
         public InputAction @Move => m_Wrapper.m_Default_Move;
         public InputActionMap Get() { return m_Wrapper.m_Default; }
         public void Enable() { Get().Enable(); }
@@ -160,9 +171,9 @@ public partial class @InputActions : IInputActionCollection2, IDisposable
         {
             if (m_Wrapper.m_DefaultActionsCallbackInterface != null)
             {
-                @Jump.started -= m_Wrapper.m_DefaultActionsCallbackInterface.OnJump;
-                @Jump.performed -= m_Wrapper.m_DefaultActionsCallbackInterface.OnJump;
-                @Jump.canceled -= m_Wrapper.m_DefaultActionsCallbackInterface.OnJump;
+                @Boost.started -= m_Wrapper.m_DefaultActionsCallbackInterface.OnBoost;
+                @Boost.performed -= m_Wrapper.m_DefaultActionsCallbackInterface.OnBoost;
+                @Boost.canceled -= m_Wrapper.m_DefaultActionsCallbackInterface.OnBoost;
                 @Move.started -= m_Wrapper.m_DefaultActionsCallbackInterface.OnMove;
                 @Move.performed -= m_Wrapper.m_DefaultActionsCallbackInterface.OnMove;
                 @Move.canceled -= m_Wrapper.m_DefaultActionsCallbackInterface.OnMove;
@@ -170,9 +181,9 @@ public partial class @InputActions : IInputActionCollection2, IDisposable
             m_Wrapper.m_DefaultActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @Jump.started += instance.OnJump;
-                @Jump.performed += instance.OnJump;
-                @Jump.canceled += instance.OnJump;
+                @Boost.started += instance.OnBoost;
+                @Boost.performed += instance.OnBoost;
+                @Boost.canceled += instance.OnBoost;
                 @Move.started += instance.OnMove;
                 @Move.performed += instance.OnMove;
                 @Move.canceled += instance.OnMove;
@@ -191,7 +202,7 @@ public partial class @InputActions : IInputActionCollection2, IDisposable
     }
     public interface IDefaultActions
     {
-        void OnJump(InputAction.CallbackContext context);
+        void OnBoost(InputAction.CallbackContext context);
         void OnMove(InputAction.CallbackContext context);
     }
 }
