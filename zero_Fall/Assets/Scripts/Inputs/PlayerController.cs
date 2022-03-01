@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour, IDefaultActions
         controls.Default.Disable();
     }
 
-    public void OnJump(InputAction.CallbackContext context)
+    public void OnBoost(InputAction.CallbackContext context)
     {
         Debug.Log("Jump Triggered");
     }
@@ -38,6 +38,21 @@ public class PlayerController : MonoBehaviour, IDefaultActions
     public void OnMove(InputAction.CallbackContext context)
     {
         Debug.Log("Move Triggered");
+    }
+
+    public void OnTouchInput(InputAction.CallbackContext context)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void OnTouchPress(InputAction.CallbackContext context)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void OnTouchPosition(InputAction.CallbackContext context)
+    {
+        throw new System.NotImplementedException();
     }
 }
 
