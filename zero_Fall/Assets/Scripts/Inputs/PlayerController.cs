@@ -6,53 +6,66 @@ using static InputActions;
 // we added (note that if you called the action map differently, the name of
 // the interface will be different). This was triggered by the "Generate Interfaces"
 // checkbox.
-public class PlayerController : MonoBehaviour, IDefaultActions
+[DefaultExecutionOrder(-1)]
+public class PlayerController : Singleton<PlayerController>
 {
+
+    #region Events
+    public delegate void StartTouch(Vector2 position, float time);
+    public event StartTouch OnStartTouch;
+    public delegate void EndTouch(Vector2 position, float time);
+    public event EndTouch OnEndTouch;
+    #endregion
+
     // MyPlayerControls is the C# class that Unity generated.
     // It encapsulates the data from the .inputactions asset we created
     // and automatically looks up all the maps and actions for us.
     InputActions controls;
+
+    private Camera mainCamera;
+
+    private void Awake()
+    {
+        mainCamera = Camera.main;
+    }
 
     public void OnEnable()
     {
         if (controls == null)
         {
             controls = new InputActions();
-            // Tell the "gameplay" action map that we want to get told about
+            // Tell the "touch" action map that we want to get told about
             // when actions get triggered.
-            controls.Default.SetCallbacks(this);
+            // controls.Touch.SetCallbacks(this);
+            // Not doing this cause manually assigning touch input below
         }
-        controls.Default.Enable();
+        controls.Touch.Enable();
     }
 
     public void OnDisable()
     {
-        controls.Default.Disable();
+        controls.Touch.Disable();
     }
 
-    public void OnBoost(InputAction.CallbackContext context)
+    void Start()
     {
-        Debug.Log("Jump Triggered");
+        controls.Touch.TouchInput.started += ctx => StartTouchInput(ctx);
+        controls.Touch.TouchInput.canceled += ctx => EndTouchInput(ctx);
     }
 
-    public void OnMove(InputAction.CallbackContext context)
+    private void StartTouchInput(InputAction.CallbackContext context)
     {
-        Debug.Log("Move Triggered");
+        OnStartTouch?.Invoke(Utils.ScreenToWorld(mainCamera, controls.Touch.TouchPosition.ReadValue<Vector2>()), (float)context.startTime);
     }
 
-    public void OnTouchInput(InputAction.CallbackContext context)
+    private void EndTouchInput(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        OnEndTouch?.Invoke(Utils.ScreenToWorld(mainCamera, controls.Touch.TouchPosition.ReadValue<Vector2>()), (float)context.time);
     }
 
-    public void OnTouchPress(InputAction.CallbackContext context)
+    public Vector2 TouchPosition()
     {
-        throw new System.NotImplementedException();
-    }
-
-    public void OnTouchPosition(InputAction.CallbackContext context)
-    {
-        throw new System.NotImplementedException();
+        return Utils.ScreenToWorld(mainCamera, controls.Touch.TouchPosition.ReadValue<Vector2>());
     }
 }
 

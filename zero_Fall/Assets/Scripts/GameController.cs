@@ -23,7 +23,7 @@ public class GameController : MonoBehaviour
             map.Enable();
             switch (map.name)
             {
-                case "Default":
+                case "Touch":
                     map["Move"].performed += (InputAction.CallbackContext context) =>
                     {
                         pilotInput.Movement = context.ReadValue<Vector2>();

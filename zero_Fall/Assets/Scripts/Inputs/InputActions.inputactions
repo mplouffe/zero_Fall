@@ -2,22 +2,13 @@
     "name": "InputActions",
     "maps": [
         {
-            "name": "Default",
-            "id": "c73142d8-6bce-4542-bd84-444ec2030ae3",
+            "name": "Touch",
+            "id": "49c47952-abf0-4717-abc0-3597066f461f",
             "actions": [
-                {
-                    "name": "Boost",
-                    "type": "Button",
-                    "id": "324f7f88-fdc2-4ae4-973c-8fb9c54fa986",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
                 {
                     "name": "Move",
                     "type": "PassThrough",
-                    "id": "e1fb66eb-ce65-4fc8-9130-de86cb27ba5f",
+                    "id": "0fdfeab9-e75e-4c1c-b7bb-f1c8840f72b7",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -26,7 +17,7 @@
                 {
                     "name": "TouchInput",
                     "type": "PassThrough",
-                    "id": "06613322-0b9a-4f8b-942d-e38482f54356",
+                    "id": "79ecd032-188e-442d-8a1a-b97b6435817f",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -35,7 +26,7 @@
                 {
                     "name": "TouchPress",
                     "type": "Button",
-                    "id": "d3aa08a7-25c2-40d6-abc5-673cdd435211",
+                    "id": "0a2fd1c9-f273-426d-8388-add007477ed7",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -44,7 +35,7 @@
                 {
                     "name": "TouchPosition",
                     "type": "PassThrough",
-                    "id": "ada8e9fb-69af-489f-a1f4-ba3809c7c89d",
+                    "id": "26968d73-29e1-4496-bbf6-7482a2febbd1",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -54,29 +45,7 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "2fa0b1e9-8e10-42d4-aedd-f33ba5b85b47",
-                    "path": "<Gamepad>/buttonEast",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Overworld",
-                    "action": "Boost",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "e74a32a8-9edf-4f5d-abea-43afd5b4c2cb",
-                    "path": "<Sensor>",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Overworld",
-                    "action": "Boost",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "97f063e0-bacf-4a5c-bfd6-07e807cb6e68",
+                    "id": "43474b89-c81e-44ea-9e92-34d7ead57d0c",
                     "path": "<Gamepad>/leftStick",
                     "interactions": "",
                     "processors": "",
@@ -87,9 +56,9 @@
                 },
                 {
                     "name": "",
-                    "id": "044eb123-0f35-4bd2-a71a-11b8cc35fbd4",
-                    "path": "<Touchscreen>/primaryTouch",
-                    "interactions": "",
+                    "id": "a30967c6-3f93-4940-8613-be46675e4e22",
+                    "path": "<Touchscreen>/primaryTouch/press",
+                    "interactions": "Press",
                     "processors": "",
                     "groups": "",
                     "action": "TouchInput",
@@ -98,7 +67,7 @@
                 },
                 {
                     "name": "",
-                    "id": "d01a27c7-060d-4850-a512-2cd5e6dbfe48",
+                    "id": "1f926af6-ca8e-4d04-ae06-f27cf7f5efd8",
                     "path": "<Touchscreen>/primaryTouch/press",
                     "interactions": "Press",
                     "processors": "",
@@ -109,7 +78,7 @@
                 },
                 {
                     "name": "",
-                    "id": "49f9ff2b-5738-4dc3-b7d3-5ab103f1cadd",
+                    "id": "96147123-fcc9-468b-9675-8a48260a4d58",
                     "path": "<Touchscreen>/primaryTouch/position",
                     "interactions": "",
                     "processors": "",
