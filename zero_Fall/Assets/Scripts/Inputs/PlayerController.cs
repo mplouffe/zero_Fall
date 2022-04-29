@@ -55,12 +55,12 @@ public class PlayerController : Singleton<PlayerController>
 
     private void StartTouchInput(InputAction.CallbackContext context)
     {
-        OnStartTouch?.Invoke(Utils.ScreenToWorld(mainCamera, controls.Touch.TouchPosition.ReadValue<Vector2>()), (float)context.startTime);
+        OnStartTouch?.Invoke(controls.Touch.TouchPosition.ReadValue<Vector2>(), (float)context.startTime);
     }
 
     private void EndTouchInput(InputAction.CallbackContext context)
     {
-        OnEndTouch?.Invoke(Utils.ScreenToWorld(mainCamera, controls.Touch.TouchPosition.ReadValue<Vector2>()), (float)context.time);
+        OnEndTouch?.Invoke(controls.Touch.TouchPosition.ReadValue<Vector2>(), (float)context.time);
     }
 
     public Vector2 TouchPosition()

@@ -20,13 +20,11 @@ public class SwipeDetection : MonoBehaviour
 
     private void Awake()
     {
-        Debug.Log("Awake");
         m_playerController = PlayerController.Instance;
     }
 
     private void OnEnable()
     {
-        Debug.Log("Enabled");
         m_playerController.OnStartTouch += SwipeStart;
         m_playerController.OnEndTouch += SwipeEnd;
     }
@@ -41,12 +39,14 @@ public class SwipeDetection : MonoBehaviour
     {
         m_startPosition = position;
         m_startTime = time;
+        Debug.Log(m_startPosition);
     }
 
     private void SwipeEnd(Vector2 position, float time)
     {
         m_endPosition = position;
         m_endTime = time;
+        Debug.Log(m_endPosition);
         DetectSwipe();
     }
 
