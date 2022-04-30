@@ -65,7 +65,7 @@ public class PlayerController : Singleton<PlayerController>
 
     public Vector2 TouchPosition()
     {
-        return Utils.ScreenToWorld(mainCamera, controls.Touch.TouchPosition.ReadValue<Vector2>());
+        return controls.Touch.TouchPosition.ReadValue<Vector2>();
     }
 }
 

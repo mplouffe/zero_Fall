@@ -10,6 +10,12 @@ public class SwipeDetection : MonoBehaviour
     [SerializeField]
     private float m_maximumTime = 1f;
 
+    [SerializeField, Range(0f, 1f)]
+    private float m_directionThreshold = 0.9f;
+
+    [SerializeField]
+    private GameObject m_trail;
+
     private PlayerController m_playerController;
 
     private Vector2 m_startPosition;
@@ -17,6 +23,8 @@ public class SwipeDetection : MonoBehaviour
     
     private float m_startTime;
     private float m_endTime;
+
+    private bool m_swiping;
 
     private void Awake()
     {
@@ -35,19 +43,39 @@ public class SwipeDetection : MonoBehaviour
         m_playerController.OnEndTouch -= SwipeEnd;
     }
 
+    private void Update()
+    {
+        if (m_swiping)
+        {
+            Debug.Log("Swiping");
+            m_trail.transform.position = m_playerController.TouchPosition();
+        }
+    }
+
     private void SwipeStart(Vector2 position, float time)
     {
         m_startPosition = position;
         m_startTime = time;
-        Debug.Log(m_startPosition);
+        m_swiping = true;
+        m_trail.SetActive(true);
+        m_trail.transform.position = position;
     }
 
     private void SwipeEnd(Vector2 position, float time)
     {
+        m_trail.SetActive(false);
+        m_swiping = false;
         m_endPosition = position;
         m_endTime = time;
-        Debug.Log(m_endPosition);
         DetectSwipe();
+    }
+
+    private IEnumerator Trail()
+    {
+        while(true)
+        {
+            m_trail.transform.position = m_playerController.TouchPosition();
+        }
     }
 
     private void DetectSwipe()
@@ -56,6 +84,32 @@ public class SwipeDetection : MonoBehaviour
             (m_endTime - m_startTime) <= m_maximumTime)
         {
             Debug.DrawLine(m_startPosition, m_endPosition, Color.red, 5f);
+            Vector3 direction = m_endPosition - m_startPosition;
+            Vector2 direction2D = new Vector2(direction.x, direction.y).normalized;
+            SwipeDirection(direction2D);
+        }
+    }
+
+    private void SwipeDirection(Vector2 direction)
+    {
+        if (Vector2.Dot(Vector2.up, direction) > m_directionThreshold)
+        {
+            Debug.Log("Swipe UP");
+        }
+
+        if (Vector2.Dot(Vector2.down, direction) > m_directionThreshold)
+        {
+            Debug.Log("Swipe DOWN");
+        }
+
+        if (Vector2.Dot(Vector2.left, direction) > m_directionThreshold)
+        {
+            Debug.Log("Swipe LEFT");
+        }
+
+        if (Vector2.Dot(Vector2.right, direction) > m_directionThreshold)
+        {
+            Debug.Log("Swipe RIGHT");
         }
     }
 }
