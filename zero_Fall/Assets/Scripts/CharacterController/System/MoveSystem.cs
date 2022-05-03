@@ -17,7 +17,7 @@ public class MoveSystem : SystemBase
             var normalizedLinearVelocity = math.normalize(velocity.Linear);
             var velocityTargetDot = math.dot(normalizedLinearVelocity, movement.target);
 
-            var accelerationToAdd = new float3(0);
+            var accelerationToAdd = float3.zero;
             
             if (velocityTargetDot >= -0.5)
             {

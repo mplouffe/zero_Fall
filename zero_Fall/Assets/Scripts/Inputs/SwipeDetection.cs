@@ -69,14 +69,6 @@ public class SwipeDetection : MonoBehaviour
         DetectSwipe();
     }
 
-    private IEnumerator Trail()
-    {
-        while(true)
-        {
-            m_trail.transform.position = m_playerController.TouchPosition();
-        }
-    }
-
     private void DetectSwipe()
     {
         if (Vector3.Distance(m_startPosition, m_endPosition) >= m_minimumDistance &&
