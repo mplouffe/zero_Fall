@@ -47,7 +47,6 @@ public class SwipeDetection : MonoBehaviour
     {
         if (m_swiping)
         {
-            Debug.Log("Swiping");
             m_trail.transform.position = m_playerController.TouchPosition();
         }
     }
@@ -85,31 +84,13 @@ public class SwipeDetection : MonoBehaviour
         {
             Debug.DrawLine(m_startPosition, m_endPosition, Color.red, 5f);
             Vector3 direction = m_endPosition - m_startPosition;
-            Vector2 direction2D = new Vector2(direction.x, direction.y).normalized;
+            Vector2 direction2D = new Vector2(direction.x, direction.y);
             SwipeDirection(direction2D);
         }
     }
 
     private void SwipeDirection(Vector2 direction)
     {
-        if (Vector2.Dot(Vector2.up, direction) > m_directionThreshold)
-        {
-            Debug.Log("Swipe UP");
-        }
-
-        if (Vector2.Dot(Vector2.down, direction) > m_directionThreshold)
-        {
-            Debug.Log("Swipe DOWN");
-        }
-
-        if (Vector2.Dot(Vector2.left, direction) > m_directionThreshold)
-        {
-            Debug.Log("Swipe LEFT");
-        }
-
-        if (Vector2.Dot(Vector2.right, direction) > m_directionThreshold)
-        {
-            Debug.Log("Swipe RIGHT");
-        }
+        GameController.pilotInput.Swipe = direction;
     }
 }

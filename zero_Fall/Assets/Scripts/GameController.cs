@@ -47,5 +47,6 @@ public class GameController : MonoBehaviour
     {
         public float2 Movement;
         public bool Boost;
+        public float2 Swipe;
     }
 }
